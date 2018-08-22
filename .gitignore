@@ -16,9 +16,12 @@ out/
 # Gradle files
 .gradle/
 build/
+<<<<<<< HEAD
 gradle/
 gradlew
 gradlew.bat
+=======
+>>>>>>> 8b350dfd8fe69ad0d883738afec05f6dc52004aa
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -35,6 +38,40 @@ proguard/
 # Android Studio captures folder
 captures/
 
+<<<<<<< HEAD
 # Intellij
 *.iml
 .idea
+=======
+# IntelliJ
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+
+# Keystore files
+# Uncomment the following line if you do not want to check your keystore files in.
+#*.jks
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Freeline
+freeline.py
+freeline/
+freeline_project_description.json
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+>>>>>>> 8b350dfd8fe69ad0d883738afec05f6dc52004aa
